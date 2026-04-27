@@ -12,5 +12,6 @@ config.local.php
 
 # Зависимости (если используете Composer)
 /vendor/
+/folder/
 composer.lo
 
