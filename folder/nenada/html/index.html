@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Самых Безумных Фактов</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #e6e6e6;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            text-shadow: 0 0 15px rgba(138, 43, 226, 0.7);
+            background: linear-gradient(to right, #ff8a00, #da1b60);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #a8a8c0;
+        }
+        
+        .facts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .fact {
+            background: rgba(30, 30, 50, 0.7);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(138, 43, 226, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .fact:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(138, 43, 226, 0.4);
+        }
+        
+        .fact-number {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            padding: 15px;
+            text-align: center;
+            font-size: 3.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .fact-content {
+            padding: 25px;
+        }
+        
+        .fact h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ff8a00;
+            text-shadow: 0 0 10px rgba(255, 138, 0, 0.3);
+        }
+        
+        .fact p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #d0d0e0;
+        }
+        
+        .fact-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-top: 3px solid #6a11cb;
+            display: block;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #8a8ab8;
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .facts-container {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>10 Самых Безумных Фактов</h1>
+            <p class="subtitle">Погрузитесь в мир удивительных и почти невероятных истин, которые заставят вас пересмотреть взгляд на мир вокруг!</p>
+        </header>
+        
+        <div class="facts-container">
+            <!-- Факт 1 -->
+            <div class="fact">
+                <div class="fact-number">1</div>
+                <div class="fact-content">
+                    <h2>У креветок сердце в голове</h2>
+                    <p>У креветок и других ракообразных сердце расположено в головной части тела, а не в грудной клетке, как у большинства животных. Это позволяет им эффективно перекачивать кровь к органам чувств и мозгу.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=1342f341770f87fa56772bdfa78533b8_l-4460510-images-thumbs&n=13" alt="Креветка" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 2 -->
+            <div class="fact">
+                <div class="fact-number">2</div>
+                <div class="fact-content">
+                    <h2>Медузы старше динозавров</h2>
+                    <p>Медузы существуют на Земле уже 500 миллионов лет, что на 200 миллионов лет раньше, чем динозавры. Они пережили все массовые вымирания и остались практически неизменными на протяжении эволюции.</p>
+                    <img src="https://news-img.gismeteo.st/ru/2024/11/shutterstock_1491136991.jpg" alt="Медуза" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 3 -->
+            <div class="fact">
+                <div class="fact-number">3</div>
+                <div class="fact-content">
+                    <h2>Китайская кампания против воробьев</h2>
+                    <p>В 1958 году в Китае во время кампании "Борьба с четырьмя вредителями" массово уничтожали воробьев. Это привело к катастрофическому увеличению численности насекомых, что вызвало голод, унесший жизни миллионов людей.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=457d8b9243093444315b137d96f7598b1a1b420c-5235271-images-thumbs&n=13" alt="Воробьи" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 4 -->
+            <div class="fact">
+                <div class="fact-number">4</div>
+                <div class="fact-content">
+                    <h2>Коалы с человеческими отпечатками</h2>
+                    <p>Отпечатки пальцев коал почти идентичны человеческим. Это настолько похоже, что в 2000 году австралийские криминалисты ошибочно обвинили коалу в краже, приняв её следы за человеческие.</p>
+                    <img src="https://img.freepik.com/free-photo/close-up-wild-animal-nature_23-2151853136.jpg?semt=ais_hybrid&w=740" alt="Коала" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 5 -->
+            <div class="fact">
+                <div class="fact-number">5</div>
+                <div class="fact-content">
+                    <h2>Австралийская кроличья катастрофа</h2>
+                    <p>Кролики, завезенные в Австралию в 1859 году, размножились настолько стремительно, что за 50 лет их популяция достигла 10 миллиардов. Это привело к экологической катастрофе и уничтожению растительности.</p>
+                    <img src="https://img.freepik.com/free-photo/cute-baby-rabbit-sitting-grass-surrounded-by-yellow-flowers-generated-by-artificial-intelligence_188544-127450.jpg?semt=ais_hybrid" alt="Кролики" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 6 -->
+            <div class="fact">
+                <div class="fact-number">6</div>
+                <div class="fact-content">
+                    <h2>У осьминога три сердца</h2>
+                    <p>У осьминога три сердца: два перекачивают кровь к жабрам, а третье — к остальному телу. При плавании одно из сердец останавливается, поэтому осьминоги часто предпочитают ползать, чтобы не уставать.</p>
+                    <img src="https://img.freepik.com/premium-photo/octopus-vulgaris-intelligent-adaptable-marvel-marine-life-ocean-depths_272204-1103.jpg?semt=ais_hybrid&w=740" alt="Осьминог" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 7 -->
+            <div class="fact">
+                <div class="fact-number">7</div>
+                <div class="fact-content">
+                    <h2>Вулкан на Марсе выше Эвереста</h2>
+                    <p>На Марсе расположен Олимп, самый высокий вулкан в Солнечной системе. Его высота составляет 21,9 км, что почти в три раза выше Эвереста (8,8 км). Это возможно из-за отсутствия тектонических плит на Марсе.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=55f8ded7c3fa8a12dbef1be006315e9c_l-11951579-images-thumbs&n=13" alt="Марс" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 8 -->
+            <div class="fact">
+                <div class="fact-number">8</div>
+                <div class="fact-content">
+                    <h2>Пауки-рыболовы</h2>
+                    <p>Существует вид паука-рыболова (Dolomedes), который ловит рыбу, используя свои паутины и скорость. Эти пауки способны удерживать добычу, которая в 5 раз тяжелее их самих, и даже охотиться на лягушек и мелких змей.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=fee99283270d24e88fdd125967bc849f_l-4901367-images-thumbs&n=13" alt="Паук-рыболов" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 9 -->
+            <div class="fact">
+                <div class="fact-number">9</div>
+                <div class="fact-content">
+                    <h2>Японский магнитный поезд</h2>
+                    <p>В 1977 году в Японии начали тестирование поезда на магнитной подушке (Maglev), который достигает скорости 500 км/ч. В 2015 году был установлен рекорд скорости — 603 км/ч, что делает его самым быстрым поездом в мире.</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=c73a72e351193fa802ab2f4d87f518446b3107e0-10491665-images-thumbs&n=13" alt="Maglev" class="fact-image">
+                </div>
+            </div>
+            
+            <!-- Факт 10 -->
+            <div class="fact">
+                <div class="fact-number">10</div>
+                <div class="fact-content">
+                    <h2>75-летний запрет на пиво в Исландии</h2>
+                    <p>В 1915 году в Исландии был введен запрет на продажу пива, который длился 75 лет. Исландцы могли покупать вино и крепкий алкоголь, но пиво оставалось запрещенным вплоть до 1989 года, когда закон был отменен.</p>
+                    <img src="https://images.gastronom.ru/6615p0d5rx3cp_ke8G4VbzWr14gwo3RQIdNnvhfjlpE/pr:article-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzEwMDUxZDJhLTJhNjctNDExYi1hOWE0LTViZDRiZmM1YzBjOS5wbmc.webp" alt="Пиво" class="fact-image">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
