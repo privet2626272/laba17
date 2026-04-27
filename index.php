@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Главная</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-    <?php include 'includes/header.php'; ?>
-    <main>
-        <h1>Добро пожаловать!</h1>
-    </main>
-    <?php include 'includes/footer.php'; ?>
-</body>
-</html>
-
+<?php include 'includes/header.php'; ?>
+<section class="home">
+    <h1>Добро пожаловать на наш сайт!</h1>
+    <p>Это учебный проект в черно-розовых тонах с котиком-лого 🐱</p>
+    <div class="home-image">
+        <img src="/assets/images/logo.png" alt="Котик логотип">
+    </div>
+</section>
+<?php include 'includes/footer.php'; ?>
