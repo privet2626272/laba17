@@ -20,3 +20,4 @@ config.local.php
 /folder/
 composer.lo
 
+.env
